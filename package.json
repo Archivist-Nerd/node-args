@@ -1,0 +1,31 @@
+{
+  "name":         "@archivistnerd/args",
+  "version":      "0.1.0",
+  "description":  "Archivist Nerd's args Package",
+  "copy":         "Copyright (c) 2020 Archivist-Nerd",
+  "main":         "args.js",
+  "scripts": {
+    "example":    "node example.js"
+  },
+  "keywords": [
+    "Archivist",
+    "Nerd",
+    "ARGV",
+    "Parser"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Archivist-Nerd/node-args/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/Archivist-Nerd/node-args/issues"
+  },
+  "repository": {
+    "url": "https://github.com/Archivist-Nerd/node-args.git",
+    "type": "git"
+  },
+  "author": {
+    "name": "Archivist Nerd",
+    "email": "a.Nerd.Archivist@gmail.com",
+    "url": "https://github.com/Archivist-Nerd"
+  },
+  "license":      "MIT"
+}
