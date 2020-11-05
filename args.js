@@ -48,7 +48,10 @@ module.exports = ( ( argv=process.argv.slice(2) )=>{
           })
           setValue( last, getValue() )
         } else                            // option
-          setValue( match[2], getValue() );
+          if (args.length)
+            setValue( match[2], getValue() );
+          else
+            setValue( match[2], true );
       } else                              // value
         values._.push( getValue() );
     }

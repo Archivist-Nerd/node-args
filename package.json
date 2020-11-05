@@ -1,11 +1,13 @@
 {
   "name":         "@archivistnerd/args",
-  "version":      "0.1.1",
+  "version":      "0.1.2",
   "description":  "Archivist Nerd's args Package",
   "copy":         "Copyright (c) 2020 Archivist-Nerd",
   "main":         "args.js",
   "scripts": {
-    "example":    "node examples/example.js"
+    "example":    "node examples/example.js",
+    "pack": "npm pack",
+    "pub": "npm publish --access=public"
   },
   "keywords": [
     "Archivist",
